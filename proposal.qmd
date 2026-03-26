@@ -7,10 +7,15 @@ State your main question in 1–2 sentences. We are just using plain text here. 
 environmental factors. In this project, we analyze publicly available transcriptomic data to evaluate...
 
 ## Dataset(s)
-- Source:
-- Sample size:
+- Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE236382&utm_source (ALD Data)
+- Sample size: n = 5
 - Key variables:
-- License/usage notes:
+- License/usage notes: Public Access (NCBI)
+
+- Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469 (Control Data)
+- Sample size: n = 5
+- Key variables:
+- License/usage notes: Public Access (NCBI)
 
 ## Planned analysis
 Describe your plan in bullets:
