@@ -1,11 +1,11 @@
 ---
-title: "Project Title"
-subtitle: "BNFO 420 Capstone"
+title: "Single Cell Analysis of Alcohol Liver Disease"
+subtitle: "BNFO 420 Capstone - Group 4"
 ---
 
 ## One-paragraph summary
 Write 4–6 sentences describing:
-- the problem or question
+- Do immune cell populations show distinct gene-expression patterns in ALD compared with healthy liver, and do they appear to contribute strongly to disease-related changes?
 - the dataset(s)
 - your approach (methods)
 - what you will deliver (figures, model, dashboard, etc.)

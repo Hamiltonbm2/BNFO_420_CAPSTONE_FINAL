@@ -39,7 +39,7 @@
     "href": "proposal.html#datasets",
     "title": "Proposal",
     "section": "2 Dataset(s)",
-    "text": "2 Dataset(s)\n\nSource:\nSample size:\nKey variables:\nLicense/usage notes:"
+    "text": "2 Dataset(s)\n\nSource: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE236382&utm_source (ALD Data)\nSample size: n = 5\nKey variables:\nLicense/usage notes: Public Access (NCBI)\nSource: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469 (Control Data)\nSample size: n = 5\nKey variables:\nLicense/usage notes: Public Access (NCBI)"
   },
   {
     "objectID": "proposal.html#planned-analysis",
@@ -58,28 +58,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Project Title",
+    "title": "Single Cell Analysis of Alcohol Liver Disease",
     "section": "",
-    "text": "Write 4–6 sentences describing: - the problem or question - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
+    "text": "Write 4–6 sentences describing: - Do immune cell populations show distinct gene-expression patterns in ALD compared with healthy liver, and do they appear to contribute strongly to disease-related changes? - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
   },
   {
     "objectID": "index.html#one-paragraph-summary",
     "href": "index.html#one-paragraph-summary",
-    "title": "Project Title",
+    "title": "Single Cell Analysis of Alcohol Liver Disease",
     "section": "",
-    "text": "Write 4–6 sentences describing: - the problem or question - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
+    "text": "Write 4–6 sentences describing: - Do immune cell populations show distinct gene-expression patterns in ALD compared with healthy liver, and do they appear to contribute strongly to disease-related changes? - the dataset(s) - your approach (methods) - what you will deliver (figures, model, dashboard, etc.)"
   },
   {
     "objectID": "index.html#project-roadmap-living",
     "href": "index.html#project-roadmap-living",
-    "title": "Project Title",
+    "title": "Single Cell Analysis of Alcohol Liver Disease",
     "section": "2 Project roadmap (living)",
     "text": "2 Project roadmap (living)\n\nFind dataset(s)\nDefine outcome + predictors / variables\nExploratory analysis + QC\nMethod 1 (required)\nMethod 2 (optional/extension)\nFinal figures + interpretation\nLimitations + ethics + reproducibility notes"
   },
   {
     "objectID": "index.html#where-to-find-things",
     "href": "index.html#where-to-find-things",
-    "title": "Project Title",
+    "title": "Single Cell Analysis of Alcohol Liver Disease",
     "section": "3 Where to find things",
     "text": "3 Where to find things\n\nScripts: scripts/\nData notes: data/README.md\nFigures: figures/\nCitations: references.bib"
   },
@@ -101,7 +101,7 @@
     "objectID": "results.html#figures",
     "href": "results.html#figures",
     "title": "Results",
-    "section": "0.2 Figures",
-    "text": "0.2 Figures\nAdd figures as you generate them. Example:"
+    "section": "2 Figures",
+    "text": "2 Figures\nAdd figures as you generate them. Example:\ntest"
   }
 ]
