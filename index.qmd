@@ -4,11 +4,7 @@ subtitle: "BNFO 420 Capstone - Group 4"
 ---
 
 ## One-paragraph summary
-Write 4–6 sentences describing:
-- Do immune cell populations show distinct gene-expression patterns in ALD compared with healthy liver, and do they appear to contribute strongly to disease-related changes?
-- the dataset(s)
-- your approach (methods)
-- what you will deliver (figures, model, dashboard, etc.)
+This project investigates whether immune cell populations show distinct gene-expression patterns in alcohol-related liver disease (ALD) compared with healthy liver and whether they contribute significantly to disease-associated changes. We use single-cell RNA sequencing data from human liver tissue, including 5 ALD samples and 5 healthy control samples, to enable cell-type-specific analysis. Using a Seurat-based workflow, we perform quality control, normalization, dimensionality reduction (PCA/UMAP), clustering, and marker gene annotation, followed by differential expression and gene set enrichment analysis (GSEA). This approach allows us to compare gene expression patterns across both cell types and disease conditions. Preliminary results suggest increased immune activation alongside reduced hepatocyte function in ALD, with pathway analysis indicating strong disruption of metabolic processes. The final deliverables include UMAP visualizations, marker gene dot plots, and pathway enrichment figures that together illustrate how cell-type-specific changes contribute to overall disease biology.
 
 ## Project roadmap (living)
 - [ ] Find dataset(s)
