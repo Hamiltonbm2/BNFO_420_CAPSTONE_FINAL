@@ -128,6 +128,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#initial-gsea-plot" id="toc-initial-gsea-plot" class="nav-link" data-scroll-target="#initial-gsea-plot"><span class="header-section-number">3</span> Initial GSEA Plot</a></li>
   <li><a href="#dotplot" id="toc-dotplot" class="nav-link" data-scroll-target="#dotplot"><span class="header-section-number">4</span> dotplot</a></li>
   <li><a href="#umap" id="toc-umap" class="nav-link" data-scroll-target="#umap"><span class="header-section-number">5</span> UMAP</a></li>
+  <li><a href="#rolodex-of-cell-type-gsea-individual" id="toc-rolodex-of-cell-type-gsea-individual" class="nav-link" data-scroll-target="#rolodex-of-cell-type-gsea-individual"><span class="header-section-number">6</span> Rolodex of Cell type GSEA (individual)</a></li>
+  <li><a href="#interactive-gsea-by-cell-type" id="toc-interactive-gsea-by-cell-type" class="nav-link" data-scroll-target="#interactive-gsea-by-cell-type"><span class="header-section-number">7</span> Interactive GSEA by Cell Type</a></li>
   </ul>
 </nav>
     </div>
@@ -172,6 +174,64 @@ ul.task-list li input[type="checkbox"] {
 <section id="umap" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="umap"><span class="header-section-number">5</span> UMAP</h2>
 <p><img src="figures/fig03_UMAP_CellTypes.png" class="img-fluid" data-fig-cap="UMAP comparing cell clusters"></p>
+</section>
+<section id="rolodex-of-cell-type-gsea-individual" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="rolodex-of-cell-type-gsea-individual"><span class="header-section-number">6</span> Rolodex of Cell type GSEA (individual)</h2>
+</section>
+<section id="interactive-gsea-by-cell-type" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="interactive-gsea-by-cell-type"><span class="header-section-number">7</span> Interactive GSEA by Cell Type</h2>
+<p>To avoid stacking all cell-type-specific pathway enrichment plots vertically, this section provides an interactive viewer for comparing GSEA results across annotated liver cell populations. Use the dropdown menu or the previous/next buttons to browse enrichment patterns for each cell type.</p>
+<div style="max-width: 1200px;">
+<p><label for="gseaSelect"><strong>Select GSEA plot:</strong></label> <select id="gseaSelect" onchange="updateGSEA()" style="margin-left: 8px; padding: 4px;"> <option value="figures/GSEA_global_v1.png" selected="">Global ALD vs Control</option> <option value="figures/GSEA_Test_B_Cells.png">B Cells</option> <option value="figures/GSEA_Test_CDCs.png">cDCs</option> <option value="figures/GSEA_Test_cholangiocytes.png">Cholangiocytes</option> <option value="figures/GSEA_Test_Endothelial_Cells.png">Endothelial Cells</option> <option value="figures/GSEA_Test_Hepatocytes.png">Hepatocytes</option> <option value="figures/GSEA_hepatocytes.png">Hepatocytes Variant 1</option> <option value="figures/GSEA_hepatocytes_v1.png">Hepatocytes Variant 2</option> <option value="figures/GSEA_hepatocytes_v2.png">Hepatocytes Variant 3</option> <option value="figures/GSEA_hepatocytes_v2.1.png">Hepatocytes Variant 4</option> <option value="figures/GSEA_Test_Kupffer_Cells.png">Kupffer Cells</option> <option value="figures/GSEA_Test_Monocytes.png">Monocytes</option> <option value="figures/GSEA_Test_NK_Cells.png">NK Cells</option> <option value="figures/GSEA_Test_Stellate_Cells.png">Stellate Cells</option> <option value="figures/GSEA_Test_T_Cells.png">T Cells</option> <option value="figures/GSEA_T_Cells.png">T Cells Variant 1</option> <option value="figures/GSEA_T_Cells_v1.png">T Cells Variant 2</option> </select></p>
+<p><button onclick="prevGSEA()" style="margin-left: 10px;">Previous</button> <button onclick="nextGSEA()">Next</button></p>
+<p id="gseaCaption" style="margin-top: 12px;">
+Global gene set enrichment analysis comparing ALD and control samples across the integrated dataset.
+</p>
+<p><img id="gseaImage" src="figures/GSEA_global_v1.png" alt="Interactive GSEA plot viewer" style="width: 100%; max-width: 1200px; border: 1px solid #ccc; border-radius: 6px;"></p>
+</div>
+<script>
+const gseaCaptions = {
+  "figures/GSEA_global_v1.png": "Global gene set enrichment analysis comparing ALD and control samples across the integrated dataset.",
+  "figures/GSEA_Test_B_Cells.png": "Gene set enrichment analysis for B cells comparing ALD and control samples.",
+  "figures/GSEA_Test_CDCs.png": "Gene set enrichment analysis for conventional dendritic cells comparing ALD and control samples.",
+  "figures/GSEA_Test_cholangiocytes.png": "Gene set enrichment analysis for cholangiocytes comparing ALD and control samples.",
+  "figures/GSEA_Test_Endothelial_Cells.png": "Gene set enrichment analysis for endothelial cells comparing ALD and control samples.",
+  "figures/GSEA_Test_Hepatocytes.png": "Gene set enrichment analysis for hepatocytes comparing ALD and control samples.",
+  "figures/GSEA_hepatocytes.png": "Alternative hepatocyte GSEA result comparing ALD and control samples.",
+  "figures/GSEA_hepatocytes_v1.png": "Alternative hepatocyte GSEA result (version 1) comparing ALD and control samples.",
+  "figures/GSEA_hepatocytes_v2.png": "Alternative hepatocyte GSEA result (version 2) comparing ALD and control samples.",
+  "figures/GSEA_hepatocytes_v2.1.png": "Alternative hepatocyte GSEA result (version 2.1) comparing ALD and control samples.",
+  "figures/GSEA_Test_Kupffer_Cells.png": "Gene set enrichment analysis for Kupffer cells comparing ALD and control samples.",
+  "figures/GSEA_Test_Monocytes.png": "Gene set enrichment analysis for monocytes comparing ALD and control samples.",
+  "figures/GSEA_Test_NK_Cells.png": "Gene set enrichment analysis for NK cells comparing ALD and control samples.",
+  "figures/GSEA_Test_Stellate_Cells.png": "Gene set enrichment analysis for stellate cells comparing ALD and control samples.",
+  "figures/GSEA_Test_T_Cells.png": "Gene set enrichment analysis for T cells comparing ALD and control samples.",
+  "figures/GSEA_T_Cells.png": "Alternative T-cell GSEA result comparing ALD and control samples.",
+  "figures/GSEA_T_Cells_v1.png": "Alternative T-cell GSEA result (version 1) comparing ALD and control samples."
+};
+
+function updateGSEA() {
+  const select = document.getElementById("gseaSelect");
+  const img = document.getElementById("gseaImage");
+  const caption = document.getElementById("gseaCaption");
+  const selectedValue = select.value;
+
+  img.src = selectedValue;
+  caption.textContent = gseaCaptions[selectedValue] || "Gene set enrichment analysis comparing ALD and control samples.";
+}
+
+function nextGSEA() {
+  const select = document.getElementById("gseaSelect");
+  select.selectedIndex = (select.selectedIndex + 1) % select.options.length;
+  updateGSEA();
+}
+
+function prevGSEA() {
+  const select = document.getElementById("gseaSelect");
+  select.selectedIndex = (select.selectedIndex - 1 + select.options.length) % select.options.length;
+  updateGSEA();
+}
+</script>
 
 
 </section>

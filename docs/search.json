@@ -124,5 +124,19 @@
     "title": "Results",
     "section": "5 UMAP",
     "text": "5 UMAP"
+  },
+  {
+    "objectID": "results.html#rolodex-of-cell-type-gsea-individual",
+    "href": "results.html#rolodex-of-cell-type-gsea-individual",
+    "title": "Results",
+    "section": "6 Rolodex of Cell type GSEA (individual)",
+    "text": "6 Rolodex of Cell type GSEA (individual)"
+  },
+  {
+    "objectID": "results.html#interactive-gsea-by-cell-type",
+    "href": "results.html#interactive-gsea-by-cell-type",
+    "title": "Results",
+    "section": "7 Interactive GSEA by Cell Type",
+    "text": "7 Interactive GSEA by Cell Type\nTo avoid stacking all cell-type-specific pathway enrichment plots vertically, this section provides an interactive viewer for comparing GSEA results across annotated liver cell populations. Use the dropdown menu or the previous/next buttons to browse enrichment patterns for each cell type.\n\nSelect GSEA plot:  Global ALD vs Control B Cells cDCs Cholangiocytes Endothelial Cells Hepatocytes Hepatocytes Variant 1 Hepatocytes Variant 2 Hepatocytes Variant 3 Hepatocytes Variant 4 Kupffer Cells Monocytes NK Cells Stellate Cells T Cells T Cells Variant 1 T Cells Variant 2 \nPrevious Next\n\nGlobal gene set enrichment analysis comparing ALD and control samples across the integrated dataset."
   }
 ]
