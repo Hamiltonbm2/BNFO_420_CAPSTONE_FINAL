@@ -137,6 +137,13 @@
     "href": "results.html#interactive-gsea-by-cell-type",
     "title": "Results",
     "section": "7 Interactive GSEA by Cell Type",
-    "text": "7 Interactive GSEA by Cell Type\nTo avoid stacking all cell-type-specific pathway enrichment plots vertically, this section provides an interactive viewer for comparing GSEA results across annotated liver cell populations. Use the dropdown menu or the previous/next buttons to browse enrichment patterns for each cell type.\n\nSelect GSEA plot:  Global ALD vs Control B Cells cDCs Cholangiocytes Endothelial Cells Hepatocytes Hepatocytes Variant 1 Hepatocytes Variant 2 Hepatocytes Variant 3 Hepatocytes Variant 4 Kupffer Cells Monocytes NK Cells Stellate Cells T Cells T Cells Variant 1 T Cells Variant 2 \nPrevious Next\n\nGlobal gene set enrichment analysis comparing ALD and control samples across the integrated dataset."
+    "text": "7 Interactive GSEA by Cell Type\nTo avoid stacking all cell-type-specific pathway enrichment plots vertically, this section provides an interactive viewer for comparing GSEA results across annotated liver cell populations. Use the dropdown menu or the previous/next buttons to browse enrichment patterns for each cell type.\n\nSelect GSEA plot:  Cell Type Proportions: ALD vs Control GSEA - B Cells GSEA - cDCs GSEA - Cholangiocytes GSEA - Endothelial Cells GSEA - Hepatocytes GSEA - Kupffer Cells GSEA - Monocytes GSEA - NK Cells GSEA - Stellate Cells GSEA - T Cells Immune Cell Transcriptional Disruption Immune Pathway Activation Heatmap \nPrevious Next\n\nGlobal gene set enrichment analysis comparing ALD and control samples across the integrated dataset."
+  },
+  {
+    "objectID": "results.html#interactive-featureplot-viewer-by-cell-type",
+    "href": "results.html#interactive-featureplot-viewer-by-cell-type",
+    "title": "Results",
+    "section": "8 Interactive FeaturePlot Viewer by Cell Type",
+    "text": "8 Interactive FeaturePlot Viewer by Cell Type\nThis viewer allows interactive comparison of marker-based feature plots used to validate cell-type annotations across the integrated UMAP. Use the dropdown menu or the previous/next buttons to browse marker panels for each annotated cell population.\n\nSelect feature plot:  B Cells Markers cDC Markers Cholangiocyte Markers Endothelial Cell Markers gdT / NKT Markers Hepatocyte Stress Markers Hepatocyte Markers Kupffer Cell Markers Monocyte Markers NK Cell Markers pDC Markers Stellate Cell Markers T Cell Markers \nPrevious Next\n\nFeature plots for B-cell markers showing where canonical B-cell genes are expressed across the integrated UMAP."
   }
 ]
