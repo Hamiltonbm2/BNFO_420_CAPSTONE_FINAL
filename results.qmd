@@ -17,9 +17,6 @@ Add figures as you generate them. Example:
 ## UMAP
 ![](figures/fig03_UMAP_CellTypes.png){fig-cap="UMAP comparing cell clusters"}
 
-
-## Rolodex of Cell type GSEA (individual)
-
 ## Interactive GSEA by Cell Type
 
 To avoid stacking all cell-type-specific pathway enrichment plots vertically, this section provides an interactive viewer for comparing GSEA results across annotated liver cell populations. Use the dropdown menu or the previous/next buttons to browse enrichment patterns for each cell type.
