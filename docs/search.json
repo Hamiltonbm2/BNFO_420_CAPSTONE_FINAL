@@ -4,14 +4,14 @@
     "href": "team.html",
     "title": "Team",
     "section": "",
-    "text": "Name 1 — role (data cleaning, EDA, modeling, writing)\nName 2 — role\nName 3 — role\nName 4 — role"
+    "text": "Brayden Hamilton — data cleaning, EDA (data cleaning, EDA, modeling, writing)\nSofia Haider — data cleaning, EDA\nLojy Hozyen — data cleaning, EDA\nRaymond Truong — modeling, writing\nMichael Ezeogu - modeling, writing"
   },
   {
     "objectID": "team.html#members",
     "href": "team.html#members",
     "title": "Team",
     "section": "",
-    "text": "Name 1 — role (data cleaning, EDA, modeling, writing)\nName 2 — role\nName 3 — role\nName 4 — role"
+    "text": "Brayden Hamilton — data cleaning, EDA (data cleaning, EDA, modeling, writing)\nSofia Haider — data cleaning, EDA\nLojy Hozyen — data cleaning, EDA\nRaymond Truong — modeling, writing\nMichael Ezeogu - modeling, writing"
   },
   {
     "objectID": "team.html#collaboration-rules-simple",
@@ -46,7 +46,7 @@
     "href": "proposal.html#planned-analysis",
     "title": "Proposal",
     "section": "3 Planned analysis",
-    "text": "3 Planned analysis\nDescribe your plan in bullets: - Cleaning/QC - Visualizations - Statistical/ML approach - How you’ll validate (train/test, CV, sensitivity checks, etc.)"
+    "text": "3 Planned analysis\n\nDescribe your plan in bullets: - Cleaning/QC - Visualizations - Statistical/ML approach - How you’ll validate (train/test, CV, sensitivity checks, etc.)"
   },
   {
     "objectID": "proposal.html#deliverables",
@@ -91,8 +91,8 @@
     "text": "ALD is associated with widespread transcriptional changes across liver cell populations, with distinct gene expression patterns observed between disease and control samples.\nCell-type composition and behavior are altered in ALD, indicating that disease progression involves both shifts in cell abundance and functional state.\nImmune cells show the most pronounced changes, with coordinated downregulation of immune-related pathways across multiple cell types.\nB cells exhibit the strongest suppression of immune pathways, suggesting impaired humoral immune function in ALD.\nMonocytes display evidence of functional reprogramming, characterized by decreased immune activity alongside increased metabolic (ATP-related) pathway enrichment.\nPathway-level changes are highly cell-type specific, highlighting the importance of single-cell resolution for understanding disease mechanisms.\n\nOverall, these results support immune dysfunction and metabolic alteration as central features of ALD pathophysiology."
   },
   {
-    "objectID": "results.html#key-findings-draft",
-    "href": "results.html#key-findings-draft",
+    "objectID": "results.html#key-findings",
+    "href": "results.html#key-findings",
     "title": "Results",
     "section": "",
     "text": "ALD is associated with widespread transcriptional changes across liver cell populations, with distinct gene expression patterns observed between disease and control samples.\nCell-type composition and behavior are altered in ALD, indicating that disease progression involves both shifts in cell abundance and functional state.\nImmune cells show the most pronounced changes, with coordinated downregulation of immune-related pathways across multiple cell types.\nB cells exhibit the strongest suppression of immune pathways, suggesting impaired humoral immune function in ALD.\nMonocytes display evidence of functional reprogramming, characterized by decreased immune activity alongside increased metabolic (ATP-related) pathway enrichment.\nPathway-level changes are highly cell-type specific, highlighting the importance of single-cell resolution for understanding disease mechanisms.\n\nOverall, these results support immune dysfunction and metabolic alteration as central features of ALD pathophysiology."
@@ -126,13 +126,6 @@
     "text": "5 UMAP"
   },
   {
-    "objectID": "results.html#rolodex-of-cell-type-gsea-individual",
-    "href": "results.html#rolodex-of-cell-type-gsea-individual",
-    "title": "Results",
-    "section": "6 Rolodex of Cell type GSEA (individual)",
-    "text": "6 Rolodex of Cell type GSEA (individual)"
-  },
-  {
     "objectID": "results.html#interactive-gsea-by-cell-type",
     "href": "results.html#interactive-gsea-by-cell-type",
     "title": "Results",
@@ -145,12 +138,5 @@
     "title": "Results",
     "section": "7 Interactive FeaturePlot Viewer by Cell Type",
     "text": "7 Interactive FeaturePlot Viewer by Cell Type\nThis viewer allows interactive comparison of marker-based feature plots used to validate cell-type annotations across the integrated UMAP. Use the dropdown menu or the previous/next buttons to browse marker panels for each annotated cell population.\n\nSelect feature plot:  B Cells Markers cDC Markers Cholangiocyte Markers Endothelial Cell Markers gdT / NKT Markers Hepatocyte Stress Markers Hepatocyte Markers Kupffer Cell Markers Monocyte Markers NK Cell Markers pDC Markers Stellate Cell Markers T Cell Markers \nPrevious Next\n\nFeature plots for B-cell markers showing where canonical B-cell genes are expressed across the integrated UMAP."
-  },
-  {
-    "objectID": "results.html#key-findings",
-    "href": "results.html#key-findings",
-    "title": "Results",
-    "section": "",
-    "text": "ALD is associated with widespread transcriptional changes across liver cell populations, with distinct gene expression patterns observed between disease and control samples.\nCell-type composition and behavior are altered in ALD, indicating that disease progression involves both shifts in cell abundance and functional state.\nImmune cells show the most pronounced changes, with coordinated downregulation of immune-related pathways across multiple cell types.\nB cells exhibit the strongest suppression of immune pathways, suggesting impaired humoral immune function in ALD.\nMonocytes display evidence of functional reprogramming, characterized by decreased immune activity alongside increased metabolic (ATP-related) pathway enrichment.\nPathway-level changes are highly cell-type specific, highlighting the importance of single-cell resolution for understanding disease mechanisms.\n\nOverall, these results support immune dysfunction and metabolic alteration as central features of ALD pathophysiology."
   }
 ]

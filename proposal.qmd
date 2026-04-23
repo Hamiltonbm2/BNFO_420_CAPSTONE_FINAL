@@ -17,6 +17,9 @@ Alcohol-associated liver disease (ALD) disrupts normal immune and metabolic proc
 - License/usage notes: Public Access (NCBI)
 
 ## Planned analysis
+
+![](figures/Capstone_Pipeline_Website.png){fig-cap="Project Workflow Pipeline"}
+
 Describe your plan in bullets:
 - Cleaning/QC
 - Visualizations
