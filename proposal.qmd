@@ -19,10 +19,10 @@ Alcohol-associated liver disease (ALD) disrupts normal immune and metabolic proc
 
 - Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469 (Control Data)
 - Sample size: n = 5
-- Key variables:
+- Key variables: Singe-cell gene expression counts per cell
 - License/usage notes: Public Access (NCBI)
 
-## Planned analysis
+## Planned analysis/Methods
 
 The pipeline below shows the full planned/executed workflow from raw data to final figures:
 
